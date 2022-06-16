@@ -1,0 +1,33 @@
+<!--pages/volunteer/volunteer.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/people.png"></image>
+</view>
+<view class="container">
+  <view >
+    <image class="imgwrapper" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/some_background/syvolunteer.png?sign=b84ddc967471f867ea10c3d823a42efb&t=1654347991" bindtap="gotoDetail"></image>
+  </view>
+  <view class="div1">
+    <text class="passage1">
+      欢迎来到上海大学博物馆志愿者之家，
+      上海大学博物馆志愿者团队向您发出诚挚邀请！
+      如果您与我们一样深爱着博物馆；
+      如果您愿意与观众一起分享上海大学独特的校园文化；
+      如果您愿意用挚诚、公益、奉献的心走进我们；
+      就请加入我们，
+      成为上海大学博物馆志愿团队的一员吧！</text>
+  </view>
+  <text class='title1'>志愿者动态</text>
+  <text class='fengefu1'></text>
+  <div class="div2">
+    <scroll-view class="scrollView-wrapper" scroll-y="true">
+      <text decode="{{true}}" space="{{true}}" user-select="true">&emsp;&emsp;第一次踏入校史馆以及钱伟长纪念馆就满是震撼，激励。对于上海大学而言，红色精神是这所学校始终的血液，未曾变过。成为志愿讲解员后，我更能感受到我不仅是在给参观者讲解一段值得铭记与深思的历史，更是时刻在告诫自己，身为一个上大人，应该投身社会，不断建设新中国；身为一名中共党员，要时刻牢记历史方能居安思危；身为一名中国人，爱国是我一辈子的事业！</text>
+      <text style="text-align:right">——贾志伟</text>
+    </scroll-view>
+  </div>
+  <div class="div2">
+    <scroll-view class="scrollView-wrapper" scroll-y="true">
+      <text decode="{{true}}" space="{{true}}" user-select="true">&emsp;&emsp;百年征程波澜壮阔，百年初心历久弥坚。站在“两个一百年”奋斗目标的历史交汇点上，上海大学博物馆志愿团队始终立足上海红色文化源头的城市形象，依托上海大学校史馆以及钱伟长纪念馆，联接校史党史，讲好红色故事、传播红色文化、赓续红色精神。2021年，中国共产党迎来百年华诞，希望更多同学能够加入其中，以做好新时代红色基因传承人的使命感和责任感，确实做到“学思践悟、知行合一”，勇担民族复兴之大任。</text>
+      <text style="text-align:right">——卢芷晴</text>
+    </scroll-view>
+  </div>
+</view>

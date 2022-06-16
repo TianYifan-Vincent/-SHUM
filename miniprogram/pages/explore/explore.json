@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "van-rate": "@vant/weapp/rate/index",
+    "van-popup": "@vant/weapp/popup/index"
+  }
+}

@@ -1,0 +1,839 @@
+{
+  "setting": {
+    "compileHotReLoad": true,
+    "urlCheck": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/getOpenId/index",
+          "pathName": "pages/getOpenId/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/deployService/index",
+          "pathName": "pages/deployService/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/selectRecord/index",
+          "pathName": "pages/selectRecord/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/sumRecordResult/index",
+          "pathName": "pages/sumRecordResult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecord/index",
+          "pathName": "pages/updateRecord/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecordResult/index",
+          "pathName": "pages/updateRecordResult/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/updateRecordSuccess/index",
+          "pathName": "pages/updateRecordSuccess/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/p2/p2",
+          "pathName": "pages/p2/p2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/p3/p3",
+          "pathName": "pages/p3/p3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/p4/p4",
+          "pathName": "pages/p4/p4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/relic/relic",
+          "pathName": "pages/relic/relic",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/exhibition_detail/exhibition_detail",
+          "pathName": "pages/exhibition_detail/exhibition_detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/test/test",
+          "pathName": "pages/test/test",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/exhibit/exhibit",
+          "pathName": "pages/exhibit/exhibit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index_y/index_y",
+          "pathName": "pages/index_y/index_y",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/play/play",
+          "pathName": "pages/play/play",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/exhibit/exhibit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/exhibit/exhibit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/relic_down/relic_down",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/show_news/show_news",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/p1/p1",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/p4/p4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseNews/releaseNews",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/p2/p2",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/recruitVolunteers/recruitVolunteers",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/volunteer/volunteer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/p4/p4",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/detail/detail",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/details/details",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/exhibit/exhibit",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/details/details",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/p3/p3",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseNews/releaseNews",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseActivity/releaseActivity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseActivity/releaseActivity",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/signUp/signUp",
+          "query": "title=test9",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/signUp/signUp",
+          "query": "title=test9",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/questionnaire/questionnaire",
+          "pathName": "pages/questionnaire/questionnaire",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/questionnaire/questionnaire",
+          "pathName": "pages/questionnaire/questionnaire",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/exhibition_detail/exhibition_detail",
+          "pathName": "pages/exhibition_detail/exhibition_detail",
+          "query": "name=%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
+          "scene": null
+        },
+        {
+          "name": "pages/to_all/to_all",
+          "pathName": "pages/to_all/to_all",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/to_attention/to_attention",
+          "pathName": "pages/to_attention/to_attention",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/to_contact/to_contact",
+          "pathName": "pages/to_contact/to_contact",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/showall_exhibits/showall_exhibits",
+          "pathName": "pages/showall_exhibits/showall_exhibits",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/VRpanorama/VRpanorama",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/all_show/all_show",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/to_all/to_all",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation_detail/reservation_detail",
+          "query": "eventID=617ef50c61efc529005317363db32b6b&content=this%20is%20test11&dic=%7B%22url%22%3A%22cloud%3A%2F%2Fcloud1-6gn92kuf97d4a56e.636c-cloud1-6gn92kuf97d4a56e-1307723956%2F1643103530430_0.jpg%22%2C%22title%22%3A%22test11%22%2C%22content%22%3A%22this%20is%20test11%22%2C%22signUp%22%3A3%2C%22members%22%3A3%2C%22time%22%3A%222022-01-26%2017%3A37%3A00%22%2C%22duration%22%3A%222%22%7D",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/showall_exhibits/showall_exhibits",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/showall_exhibits/showall_exhibits",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/index_D/index_D",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/myActivity/myActivity",
+          "query": "id=orP8-4xvI3yZIHyPn7CCFTR8WCVg",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/transfer/transfer",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/enrollment/enrollment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/application/application",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/enrollment/enrollment",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseNews/releaseNews",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseNews/releaseNews",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation_detail/reservation_detail",
+          "query": "eventID=d2fe6f206248288304602e81188dd00b&content=%E7%89%88%E7%94%BB%E7%BB%98%E7%94%BB&dic=%7B%22url%22%3A%22cloud%3A%2F%2Fcloud1-6gn92kuf97d4a56e.636c-cloud1-6gn92kuf97d4a56e-1307723956%2F1648896131497_0.jpg%22%2C%22title%22%3A%22%E4%BC%8A%E6%B0%B4%E6%B2%B3%E7%95%94%20%E5%8D%B0%E8%B1%A1%E9%BE%99%E9%97%A8%E2%80%94%E2%80%94%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F%E7%89%B9%E5%B1%95%E7%89%88%E7%94%BB%E5%88%9B%E4%BD%9C%E6%B4%BB%E5%8A%A8%22%2C%22content%22%3A%22%E7%89%88%E7%94%BB%E7%BB%98%E7%94%BB%22%2C%22signUp%22%3A1%2C%22members%22%3A10%2C%22time%22%3A%222022-04-05%2018%3A31%3A00%22%2C%22duration%22%3A%222%22%2C%22uploadtime%22%3A1649154660000%7D",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/transfer/transfer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/enrollment/enrollment",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/exhibition_detail/exhibition_detail",
+          "query": "name=%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/to_all/to_all",
+          "query": "latestName=%E9%BE%99%E9%97%A8%E7%9F%B3%E7%AA%9F",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/all_show/all_show",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/showall_exhibits/showall_exhibits",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/volunteer/volunteer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/VRpanorama/VRpanorama",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/administrator/administrator",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseNews/releaseNews",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/releaseActivity/releaseActivity",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/personal_center/personal_center",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/recruitVolunteers/recruitVolunteers",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/myActivity/myActivity",
+          "query": "id=orP8-4xvI3yZIHyPn7CCFTR8WCVg",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/application/application",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/application/application",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/reservation/reservation",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "",
+          "pathName": "pages/explore/explore",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "xuezi%E6%9C%80%E6%96%B0"
+}

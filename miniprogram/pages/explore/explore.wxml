@@ -1,0 +1,72 @@
+<page-meta page-style="{{ show ? 'overflow: hidden;' : '' }}" />
+<view class="flower_box">
+  <image class="flower" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image>
+  <view>
+    <!-- <view class='cover' style='position:relative; display:{{flag}};' bindtap='pushdown' animation="{{num==0?showpic:hidepic}}">
+      <image class='coverbackground' src='../../images/longmen4.jpg' style='position:absolute'></image>
+      <image class='coverbutton' src='../../images/res/pushdown.png' style='position:absolute;bottom:20rpx;left:350rpx' />
+    </view> -->
+    <!-- <view class="data-rotate">为你推荐</view> -->
+    <swiper class='swiperClass' indicator-color="#a39f99" indicator-active-color="#ffffff" indicator-dots interval="2500" duration="1000" autoplay previous-margin="50px" next-margin="50px" circular bindchange="bindchange" style='height: {{swiperHeight}}rpx'>
+      <navigator class="nav" wx:for="{{imgUrls}}" wx:key="index" url="{{item.page_url}}?name={{item.name}}">
+        <swiper-item>
+          <view style="height: 100%;width: 100%;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+            <image mode='aspectFill' src="{{item.img_path}}" class="slide-image {{swiperIndex == index ? 'active' : 'quiet'}}">
+            </image>
+          </view>
+          <!-- <image src="{{item.img_path}}" class="slide-image {{swiperIndex == index ? 'active' : 'quiet'}}" mode='aspectFill'>
+          </image> -->
+        </swiper-item>
+      </navigator>
+    </swiper>
+    <!-- <view class="panel"></view> -->
+
+
+    <view class="plate">
+      <view class="data-rotate">功能矩阵</view>
+      <view class="belt">
+        <swiper class='swiperClass2' interval="2500" duration="1000" circular previous-margin="68rpx" next-margin="60rpx" display-multiple-items='3' bindchange="bindchange2" style="height: 205rpx;">
+          <block wx:for="{{functions}}" wx:key="index">
+            <swiper-item>
+              <view class="f_wrapper {{(swiperIndex2+1)%5 == index ? 'active' : 'quiet'}}" bindtap="{{functions2[index]}}">
+                <view>
+                  <image class="f_icon" src="{{funUrl[index]}}"></image>
+                </view>
+                <view class="f_name">{{item}}</view>
+              </view>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+
+      <!-- 往期展览 -->
+      <view class="pastshow">
+
+        <view class="pastshow_topwrapper">
+          <view class="data-rotate exhibit">往期展览</view>
+          <view class="rim">
+            <view class="ideal_detail" bindtap="to_all">查看全部</view>
+          </view>
+        </view>
+
+        <navigator class="pastshow_container" wx:for="{{pastshow_arr}}" wx:key="index" url="../../pages/exhibition_detail/exhibition_detail?name={{item.name}}">
+          <view class="pastshow_detail">
+            <view class="ps_d1" />
+            <view class="ps_d2">
+              <image class="ps_d2_img" src="{{item.cover_path}}" />
+            </view>
+            <view class="ps_d3">
+              <view class="d3_1">{{item.name}}</view>
+              <view class="d3_2">{{item.intro}}</view>
+              <view class="d3_3">
+                <van-rate readonly value="{{ item.rank }}" size="{{ 0.048*width }}" color="#ffd21e" void-icon="star" void-color="#eee" bind:change="onChange" allow-half />
+              </view>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+
+
+  </view>
+</view>

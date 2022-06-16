@@ -1,0 +1,148 @@
+/* pages/index/index.wxss */
+/* .box{
+  border:1px red solid;
+  height: 100%;
+} */
+.box1{
+  width: 200px;
+  height: 200px;
+  background-color: #bbffaa;
+  display: flex;
+  
+}
+.box2{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  
+}
+.top_pic{
+  width: 100%;
+  height: 178px;
+}
+.middle_wrapper{
+  width: 355px;
+  height: 30px;
+  margin: 0px auto;
+  background-color: rgb(220,220,220);
+  border-radius: 21px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:5px;
+}
+
+.individual_icon{
+  width: 26px;
+  height: 26px;
+  margin-left: 7px;
+  /* background-color: pink; */
+}
+.individual{
+  /* width:280px ; */
+  width: 100px;
+  /* background-color: yellow; */
+  margin-left: 12px;
+  font-size: 16px;
+  color: #515151;
+}
+
+.arrow{
+  width: 26px;
+  height: 26px;
+  /* background-color: orange; */
+  margin-left:176px ;
+}
+/* 功能矩阵 */
+.function_matrix{
+  width: 355px;
+  height: 234px;
+  /* background-color: #bbffaa; */
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.matrix1{
+  width: 100%;
+  height: 72px;
+  /* background-color: orange; */
+  margin-bottom: 9px;
+  display: flex;
+  justify-content:space-between
+}
+.matrix2{
+  width: 100%;
+  height: 72px;
+  /* background-color: red; */
+  margin-bottom: 9px;
+  display: flex;
+  justify-content:space-between
+}
+.matrix3{
+  width: 100%;
+  height: 72px;
+  /* background-color: yellow; */
+  display: flex;
+  justify-content:space-between
+}
+.matrix1 .function_img{
+  height: 73px;
+  width: 170px;
+  
+}
+.matrix2 .function_img{
+  height: 73px;
+  width: 110px;
+  
+}
+.matrix3 .function_img{
+  height: 73px;
+  width: 110px;
+}
+/* 底部 */
+.logo_wrapper{
+  width: 100%;
+  height: 60px;
+  /* background-color: #bbffaa; */
+  font-size: 14px;
+  color: #515151;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:center;
+}
+.logo{
+  width: 32px;
+  height: 32px;
+}
+.past_wrapper{
+  height: 185rpx;
+  background-color: orange;
+  display: flex;
+}
+.srcOut{ 
+  display: flex; 
+  flex-wrap: nowrap;
+}
+.past_show{
+  height:185rpx ;
+  /* width:386rpx;
+  margin-right: 9px;
+  flex: 0 0 100px; */
+}
+.imgbox{
+  /* width: 386rpx;  */
+  height: 185rpx; 
+  margin-right: 2px; 
+  flex:0 0 100px;
+}
+.scrOut{ 
+    display: flex; 
+    flex-wrap: nowrap;
+}
+.scrBox{ 
+    width:100px; 
+    height: 185rpx; 
+    background: gold;
+    margin-right: 2px; 
+    flex:0 0 100px;
+}

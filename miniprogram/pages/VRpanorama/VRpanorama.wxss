@@ -1,0 +1,89 @@
+/* pages/VRpanorama/VRpanorama.wxss */
+.box{
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  overflow: hidden;
+}
+.top_img{
+  margin: 0 auto;
+  width: 650rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.top_img_style{
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+.card{
+  width: 85%;
+  height: 250rpx;
+  /* background-color: #ddb387; */
+  margin: 20rpx auto;
+  border-radius: 5%;
+}
+
+.card_img{
+  display: flex;
+  width: 650rpx;
+  height: 400rpx;
+}
+.name{
+  font-size: large;
+  color: #553d3c;
+  font-weight: bold;
+  /* padding-left: 50rpx; */
+  /* margin-top: 20rpx ; */
+}
+.container {
+  padding: 10rpx 30rpx;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.div1 > image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.div2{
+  margin: 30rpx 50rpx;
+  width: 650rpx;
+}
+.div2_img{
+  width: 40rpx;
+  height: 40rpx;
+  margin: 8rpx;
+  left: -10rpx;
+}
+.label{
+  display: flex;
+  position: absolute;
+  font-size: small;
+  color: black;
+  font-weight: 500;
+  align-items:center;
+  justify-content:center;
+  background-color: #eacfb2;
+  width: 200rpx;
+  height: 60rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  /* border-radius: 5%; */
+}
+.div3 {
+    margin: 50rpx;
+}
+.note{
+    display: flex;
+    margin: 30rpx 50rpx;
+}
+.note2{
+    font-size: medium;
+    font-weight: 800;
+}

@@ -1,0 +1,63 @@
+<!--pages/all_show/all_show.wxml-->
+<import src="exhibits_list.skeleton.wxml"/>
+<template is="skeleton" wx:if="{{loading}}" data="{{show_info}}"/>
+<view style="display: none">
+	<view wx:for="{{show_info}}" wx:key="index">
+		<view class="show_box" data-id="{{item._id}}" data-content="{{item.name}}">
+			<image src="{{item.pic}}" id="{{item.name}}" bindload="onImageLoad" />
+		</view>
+	</view>
+</view>
+
+<scroll-view scroll-y="true" style="height:{{scrollH}}px" bindscrolltolower="loadImages">
+	<view class="body" style="width:100%">
+		<!-- 左边的瀑布流 -->
+
+		<view class="show_box" data-id="{{item._id}}" data-content="{{item.name}}">
+			<navigator
+			 wx:for="{{col1}}"
+			 wx:key="index"
+			 class=""
+			 target=""
+			 url="../../pages/details/details?name={{item.name}}"
+			 hover-class="navigator-hover"
+			 open-type="navigate"
+			>
+				<!-- <van-skeleton
+				 avatar
+				 avatar-shape="square"
+				 row="0"
+				 loading="{{ loading }}"
+				 avatar-size="{{item.height*0.9}}px"
+				> -->
+				<image class="img" src="{{item.pic}}" style="width:100%;height:{{item.height}}px" />
+				<!-- </van-skeleton> -->
+				<view class="img_title">{{item.title}}</view>
+			</navigator>
+		</view>
+		<!-- 右边的瀑布流 -->
+		<view class="show_box" data-id="{{item._id}}" data-content="{{item.name}}">
+			<navigator
+			 wx:for="{{col2}}"
+			 wx:key="index"
+			 class=""
+			 target=""
+			 url="../../pages/details/details?name={{item.name}}"
+			 hover-class="navigator-hover"
+			 open-type="navigate"
+			>
+				<!-- <van-skeleton
+				 avatar
+				 avatar-shape="square"
+				 row="0"
+				 loading="{{ loading }}"
+				 avatar-size="{{item.height*0.9}}px"
+				> -->
+				<image class="img" src="{{item.pic}}" style="width:100%;height:{{item.height}}px" />
+				<!-- </van-skeleton> -->
+				<view class="img_title">{{item.title}}</view>
+			</navigator>
+		</view>
+	</view>
+</scroll-view>
+

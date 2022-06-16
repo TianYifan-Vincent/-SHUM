@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTitleText": "文物藏品",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "van-sticky": "@vant/weapp/sticky/index",
+    "van-skeleton": "@vant/weapp/skeleton/index"
+  }
+}

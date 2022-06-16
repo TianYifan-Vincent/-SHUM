@@ -1,0 +1,66 @@
+<!--pages/index/index.wxml-->
+<view class="box">
+  <!-- 顶部图片 -->
+  <view>
+    <image class="top_pic" src="../../images/wu.jpg"></image>  
+  </view>
+  <!-- 个人中心 -->
+  <view>
+    <view class="middle_wrapper">
+      
+      <image class="individual_icon" src="../../images/individual.png"></image>
+     
+      <view class="individual">个人中心</view>
+      
+      <image class="arrow" src="../../images/arrow.png"></image>
+      
+      
+    </view>
+    <!-- <view class="box1">
+      <view class="box2"></view>
+    </view> -->
+  </view>
+  <!-- 功能矩阵 -->
+  <view class="function_matrix">
+    <view class="matrix1">
+      <image class="function_img" src="../../images/p1.png"></image>
+      <image class="function_img" src="../../images/p2.png"></image>
+      
+    </view>
+    <view class="matrix2">
+    
+      <image class="function_img" src="../../images/p3.png"></image>
+      <image class="function_img" src="../../images/p4.png"></image>
+      <image class="function_img" src="../../images/p5.png"></image>
+    
+  </view>
+  <view class="matrix3">
+    <image class="function_img" src="../../images/p6.png"></image>
+    <image class="function_img" src="../../images/p7.png"></image>
+    <image class="function_img" src="../../images/p8.png"></image>
+  </view>
+  </view>
+  <!-- 底部 -->
+  <view>
+    <!-- logo -->
+    <view class="logo_wrapper">
+      <image class="logo" src="../../images/pearl.png"></image>
+      <view>往期展览</view>
+    </view>
+    <!-- 往期展览 --> 
+    <scroll-view  class="past_show" scroll-x scroll-left="150">
+      <view class="scrOut">
+        <view>
+          <image class="imgbox" style="width: 386rpx;" src="../../images/past1.png"></image>
+        </view>
+        <view>
+          <image class="imgbox" style="width:316rpx" src="../../images/past2.png"></image>
+        </view>
+        <view>
+          <image class="imgbox" style="width: 386rpx;" src="../../images/past1.png"></image>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+  
+</view>

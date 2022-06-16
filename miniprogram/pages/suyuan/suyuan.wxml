@@ -1,0 +1,20 @@
+<!--pages/suyuan/suyuan.wxml-->
+<view class="container">
+  <view class="title">
+    <!--标题  -->
+    <text class="biaoti">溯园简介</text>
+
+    <!--标题分割线  -->
+    <text class='line'></text>
+  </view>
+  <image class="con_image" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/suyuan4.jpeg?sign=10a49adc0c1e2d6ed664bc4594e0e0e9&t=1647787556"></image>
+  <view class="flower_box">
+    <image class="flower" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image>
+    <view class="text_glass">
+      <text class="passage1" decode="{{true}}" space="{{true}}" user-select="true">&emsp;&emsp;溯园，为纪念老上海大学（1922—1927）而建，是上海大学博物馆校史陈列的室外展示区域，寓意追溯传承前代之办学理念与精神。2014年10月23日，溯园落成于上海大学校本部正门东侧，面向校内外全年开放。园区占地面积1800平方米，由上海大学美术学院王海松教授主持设计，该作品获得了2014年中国建筑学会建筑创作奖（景观设计类）银奖。\n
+        &emsp;&emsp;溯园由校史大事记、学校章程墙、校址地图广场、校友名录墙、浮雕作品等构成，集参观、休闲、举行仪式和活动等功能为一体，展示了老上海大学的校史、校友、校址，以及师生创作和爱国运动等。\n
+        &emsp;&emsp;溯园是校内外师生群众缅怀前辈、纪念历史、传承“自强不息”的上大精神的又一地标性活动场所，也是师生们晨读、静思、休憩、活动的好去处，它将成为校园人文环境的重要组成部分。</text>
+    </view>
+  </view>
+  <image class="con_image" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/suyuan3.jpeg?sign=a36de12594dbc5e30867f86515b11cef&t=1647786177" style="margin-top:10px" bindtap="gotoDetail"></image>
+</view>

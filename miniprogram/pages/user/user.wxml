@@ -1,0 +1,83 @@
+<!--pages/user/user.wxml-->
+<view class="container">
+
+  <!-- <view class="usercard">
+  <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" style="background-color:#469276"> 获取用户信息 </button>
+  <block wx:else>
+    <image class="useravatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <view class='userinfo'>
+      <text class="usernickname">{{userInfo.nickName}}</text>
+      <view class='otherinfo'>
+        <text class="usersex" wx:if="{{sex!=''}}">{{sex}}</text>
+        <text class="userage" wx:if="{{age!=''}}">{{age}}</text> <text class="userage" wx:if="{{age!=''}}">岁</text>
+        <image class="editinfo" src='/images/res/edit.png' bindtap='editinfo'/>
+      </view>
+    </view>
+  </block>
+</view> -->
+  <view class="userInfo" wx:if="{{!logIn}}">
+    <view class="avatarbox">
+      <image class="avatar" src="{{head_border}}"></image>
+    </view>
+    <view class="mylogin" bindtap="getUserProfile">点击登录</view>
+  </view>
+  <view class="userInfo" wx:if="{{logIn}}">
+    <view class="avatarbox">
+      <image class="avatarPhoto" mode="scaleToFill" src="{{userInfo.avatarUrl}}"></image>
+      <image class="avatar" src="{{head_border}}"></image>
+
+    </view>
+    <view class="mylogin" bindtap="getUserProfile">你好！{{userInfo.nickName}}</view>
+  </view>
+
+  <!-- 管理员入口 -->
+  <view bindtap="management" class="personal_fun" wx:if="{{admin}}">
+    <view class="function">
+      <view class="fun_text">管理员入口</view>
+      <image class="fun_bg" src="{{function_border}}"></image>
+    </view>
+  </view>
+  <view class="weui-panel__bd">
+    <view class="weui-media-box weui-media-box_small-appmsg">
+      <view class="weui-cells weui-cells_in-small-appmsg">
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='modal_collection'>
+          <view class="weui-cell__hd" style="height:20px">
+            <image src="/images/res/collection.png" style="width: 20px;height: 20px;margin-right: 5px" mode='scaleToFill' />
+          </view>
+          <view class="weui-cell__bd weui-cell_primary ">
+            <text>我的收藏</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='modal_history'>
+          <view class="weui-cell__hd" style="height:20px">
+            <image src="/images/res/history.png" style="width: 20px;height: 20px;margin-right: 5px" />
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <text>历史记录</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='modal_questionaire'>
+          <view class="weui-cell__hd" style="height:20px">
+            <image src="/images/res/questionaire.png" style="width: 20px;height: 20px;margin-right: 5px" />
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <text>调查问卷</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+        <navigator url="../volunteer/volunteer.wxml" class="weui-cell weui-cell_access" hover-class="weui-cell_active" bindtap='modal_questionaire'>
+          <view class="weui-cell__hd" style="height:20px">
+            <image src="/images/res/volunteer.png" style="width: 20px;height: 20px;margin-right: 5px" />
+          </view>
+          <view class="weui-cell__bd weui-cell_primary">
+            <text>志愿者活动</text>
+          </view>
+          <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+
+</view>

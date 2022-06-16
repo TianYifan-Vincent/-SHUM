@@ -1,0 +1,57 @@
+.bg{
+  /* position: absolute;
+  top: -260rpx; */
+  width: 750rpx;
+  height: 1334rpx;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+
+.element-wrapper {
+  display: flex;
+  /* height: 80rpx; */
+  line-height: 80rpx;
+  margin: 10rpx auto;
+  justify-content: space-evenly;
+}
+.data-input{
+  border: 2rpx solid #c3c3c3;
+  padding:0 10rpx;
+}
+.ui-input {
+  width: 444rpx;
+  height: 80rpx;
+}
+.text-input{
+  
+  width: 444rpx;
+  height: 240rpx;
+  /* line-height: 80rpx; */
+}
+.data-text{
+  padding: 0 10rpx;
+  border: 2rpx solid #c3c3c3;
+  line-height: 60rpx;
+}
+.btnStyle{
+  margin: 10rpx auto;
+  margin-bottom: 30rpx;
+  z-index: 3;
+}
+.picArea{
+  margin: 0 auto;
+  width: 650rpx;
+  height: 464rpx;
+  border: #c3c3c3 2rpx solid;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  z-index: 9;
+  margin-bottom: 40rpx;
+}
+/* .imgStyle{
+  width: 650rpx;
+  
+  z-index: 9;
+} */

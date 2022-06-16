@@ -1,0 +1,9 @@
+<!--pages/activityList/activityList.wxml-->
+<view wx:for="{{participants}}" wx:key="index">
+  <view class="stuInfo">
+    <view>姓名：{{item.name}}</view>
+    <view>学号：{{item.studentID}}</view>
+    <view>电话：{{item.phonenumber}}</view>
+    <view>邮箱：{{item.email}}</view>
+  </view>
+</view>

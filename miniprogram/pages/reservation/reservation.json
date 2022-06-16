@@ -1,0 +1,15 @@
+{
+  "usingComponents": {
+    "van-sticky": "@vant/weapp/sticky/index",
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index",
+    "van-collapse": "@vant/weapp/collapse/index",
+    "van-collapse-item": "@vant/weapp/collapse-item/index"
+    
+  },
+
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "体验活动",
+  "navigationBarTextStyle": "black"
+}

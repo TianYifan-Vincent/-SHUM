@@ -1,0 +1,28 @@
+@import "exhibits_list.skeleton.wxss";
+
+
+.body{
+  text-align: center;
+}
+.show_box {
+  width: 44%;
+  margin: 2%;
+  display: inline-block;
+  vertical-align: top;
+  height: auto;
+  /* background-color: aqua; */
+}
+.img{
+  
+  /* border: 5rpx solid rgba(195,195,195,0.8); */
+  box-shadow:4px 4px 5px rgba(144,144,144,0.7);
+  background-color:  rgba(195,195,195,0.8);
+}
+
+
+.img_title{
+  height: auto;
+  display: flex;
+  justify-content: center;
+  
+}

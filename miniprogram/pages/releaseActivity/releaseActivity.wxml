@@ -1,0 +1,25 @@
+<!-- <image class="bg" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image> -->
+<van-cell-group>
+  <van-field style="background-color: transparent;" model:value="{{ title }}" label="活动名称" placeholder="请输入名称" border="{{ false }}" />
+  <van-field style="background-color: transparent;" model:value="{{ members }}" label="活动名额" placeholder="请输入活动名额" border="{{ false }}" />
+  <van-datetime-picker
+  type="datetime"
+  title="活动开始时间"
+  visible-item-count='2'
+  value="{{ currentDate }}"
+  min-date="{{ minDate }}"
+  max-date="{{ maxDate }}"
+  bind:input="onInput"
+/>
+  <van-field type="textarea" style="background-color: transparent;" model:value="{{ duration }}" label="活动时长/h" placeholder="如：2" border="{{ false }}" />
+  <van-field type="textarea" style="background-color: transparent;" model:value="{{ location }}" label="活动地点" placeholder="请输入活动地点" border="{{ false }}" />
+  <van-field style="background-color: transparent;" model:value="{{ content }}" label="活动内容" type="textarea" placeholder="请输入活动内容" autosize border="{{ false }}" />
+</van-cell-group>
+<!-- <view class="picArea"> -->
+  <view wx:for="{{pictureArr}}" wx:key="index">
+    <image style="width: 650rpx;margin-left: 50rpx;" mode="widthFix" class="imgStyle" src="{{item}}"></image>
+  </view>
+<!-- </view> -->
+<view class="btn"  bindtap="clickBtn">选择图片</view>
+<view class="btn"  bindtap="btnSub">插入数据库</view>
+<view class="btn"  bindtap="clearAll">重置</view>

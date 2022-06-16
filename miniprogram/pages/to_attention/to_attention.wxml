@@ -1,0 +1,23 @@
+<!--pages/to_attention/to_attention.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/mask.png"></image>
+</view>
+<view class="container">
+  <!-- <view class="div1">
+    <image src="../../images/mask.png"></image>
+  </view> -->
+  <view class="div2">
+  <view class="text_glass">
+    <text>
+    1.观众入馆参观时须全程佩戴口罩，与他人保持1.5米以上距离，配合做好疫情防控工作。
+
+    2.禁止在展厅内饮食集聚、追逐打闹、大声喧哗、触摸展柜展品等不文明行为，服从工作人员疏导安排。
+
+    3.参观期间如突发发热、咳嗽、气促等身体不适状况，请及时联系工作人员，按应急处置预案进行处理。
+
+    4.观众如有参观问题咨询或意见诉求时，可拨打电话：021-66133465。
+    
+    5.疫情防控期间，对拒不配合及扰乱秩序者，由工作人员协调公安部门依法处置。</text>
+  </view>
+  </view>
+</view>

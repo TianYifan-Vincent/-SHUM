@@ -1,0 +1,74 @@
+/* pages/suyuan/suyuan.wxss */
+.title{
+  /* background-color: skyblue; */
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  /* border-radius: 25rpx; */
+  padding: 10rpx 0;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  
+}
+.container {
+  padding: 10rpx 50rpx;
+}
+.con_image {
+  width: 650rpx;
+  height: 400rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  border-radius: 25rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+.container .passage1 {
+  font-size: 15px;
+}
+/*标题 35字数以内  */
+
+.biaoti {
+  padding-left: 120rpx;
+  padding-right: 120rpx;
+  display: block;
+  margin-top: 20rpx;
+  font-size: 40rpx;
+  text-align: center;
+}
+
+/*大标题分割线  */
+
+.line {
+  border-bottom: 2rpx solid #0991e0;
+  padding: 0rpx 150rpx;
+  display: block;
+  margin-top: 24rpx;
+  margin-left: 100rpx;
+  margin-right: 100rpx;
+}
+.flower{
+  position:absolute;
+  /* background-color: red; */
+  width: 650rpx;
+  height: 962rpx;
+  /* left: 0rpx; */
+  /* bottom: 0rpx; */
+  z-index: -1;
+}
+.flower_box{
+  /* width: 750rpx; */
+  /* height: 100vh; */
+  position: relative;
+  /* overflow: scroll; */
+  /* padding-bottom:20rpx ; */
+}
+.text_glass{
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  padding: 15rpx 10rpx;
+  margin-top: 15rpx;
+  margin-bottom: 30rpx;
+  background-color: rgba(255,255,255,0.4);
+}

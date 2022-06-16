@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "yeyouzi-cropper": "/components/yeyouzi-cropper/yeyouzi-cropper"
+  }
+}

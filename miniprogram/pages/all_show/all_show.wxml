@@ -1,0 +1,15 @@
+
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/book.png"></image>
+</view>
+<view wx:for="{{show_info}}" wx:key="index">
+  <view class="show_box" data-url="{{item.url}}" bindtap="show_news">
+    <view wx:if="{{item.fileID}}">
+      <text class='fengefu1' style="border-color:#0991e0"></text>
+      <view class="title">{{item.title}}</view>
+      <image mode="aspectFill" class="coverPic" src="{{item.fileID}}"></image>
+    </view>
+    <!-- <image style="height: 300rpx;width: 750rpx;" class="bg" src="../../images/border1_1.png"></image> -->
+    <!-- <image style="height: 260rpx;width: 585rpx;margin-left: 82.5rpx;margin-top: 20rpx;" src="{{item.pictureUrl}}"></image> -->
+  </view>
+</view>

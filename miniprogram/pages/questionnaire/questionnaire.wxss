@@ -1,0 +1,32 @@
+/* pages/questionnaire/questionnaire.wxss */
+.container {
+  padding: 10rpx 30rpx;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.div1 image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.div2 {
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #dbdbdb;
+  width: 100%;
+  height: 12vh;
+  margin-top: 20px ;
+  background-color: #f6f6f6;
+  font-size: 29rpx;
+}
+.div3 {
+  position: absolute;
+  width: 25%;
+  height: 30%;
+  right:20rpx;
+  bottom:20rpx;
+  color: #a7a9ab;
+}

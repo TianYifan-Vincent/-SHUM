@@ -1,0 +1,17 @@
+{
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "展览介绍",
+    "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "van-tab": "@vant/weapp/tab/index",
+    "van-tabs": "@vant/weapp/tabs/index"
+  },
+  "window": {
+    "navigationBarBackgroundColor": "#c3c3c3",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "title",
+    "backgroundColor": "#ff0000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": "false"
+  }
+}

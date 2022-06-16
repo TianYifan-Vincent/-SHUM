@@ -1,0 +1,78 @@
+<!--pages/application/application.wxml-->
+<view class="container">
+  <view class="top_img">
+    <image class="top_img_style" mode="heightFix" src="../../images/form.png"></image>
+  </view>
+  <van-tabs active="{{ active }}" class="div2">
+    <van-tab title="基本信息">
+      <!-- <view class="div3" bindtap="uploadPic">
+        <image src="{{imageSrc}}"></image>
+      </view> -->
+      <!-- <form bindsubmit="submitNewStuInfo"> -->
+        <van-cell-group>
+          <van-field name="stuName" required clearable label="姓名" title-width="3em" 
+            model:value="{{stuName}}" placeholder="请输入姓名"/>
+          <van-field name="major" label="专业" title-width="3em"  clearable
+            model:value="{{major}}" placeholder="请输入专业"/>
+          <view bindtap="showPopup">
+            <van-field name="gender" label="性别" title-width="3em" model:value="{{gender}}" 
+              readonly placeholder="请选择性别"/>
+          </view>
+          <van-field name="phone" label="手机号" type="number" maxlength="11" title-width="3em" 
+            model:value="{{phone}}" required clearable placeholder="请输入手机号" />
+          <van-field name="email" label="邮箱" title-width="3em" required clearable
+            model:value="{{email}}" placeholder="请输入邮箱"/>
+        </van-cell-group>
+        <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 40%">
+          <van-picker title="选择性别" show-toolbar columns="{{ columns }}" bind:cancel="onClose"
+            bind:confirm="onConfirm" />
+        </van-popup>
+        <!-- <button disabled="{{btn_flag}}" class="button" type="primary" bindtap="submit">提交信息</button> -->
+        <view style="margin-left: 161rpx;margin-top: 30rpx;" wx:if="{{btn_flag}}" class="btn2">提交信息</view>
+        <view wx:else style="margin-left: 161rpx;margin-top: 30rpx;" class="btn" bindtap="submit">提交信息</view>
+      <!-- </form> -->
+    </van-tab>
+
+    <van-tab title="个人特长">
+      <!-- <form bindsubmit="submitNewStuInfo2"> -->
+        <van-cell-group>
+          <van-field name="expertise"  clearable label="专长" title-width="3em" placeholder="个人专长"
+            model:value="{{expertise}}" />
+          <van-field name="language" label="专业" title-width="3em" placeholder="擅长外语/等级证书" clearable
+            model:value="{{language}}" />
+          <view bindtap="showPopup">
+            <van-field name="experience" label="经验" title-width="3em" placeholder="是否有志愿者经验" model:value="{{experience}}"
+              readonly />
+          </view>
+          <van-field name="time" label="时间" title-width="3em" placeholder="请填写平时空余的可服务时间"  clearable
+            model:value="{{time}}"  required/>
+          <van-popup show="{{ show }}" bind:close="onClose" position="bottom" custom-style="height: 40%">
+            <van-picker title="选择是否" show-toolbar columns="{{ columns2 }}" bind:cancel="onClose"
+              bind:confirm="onConfirm2" />
+          </van-popup>
+        </van-cell-group>
+        <!-- <button disabled="{{btn_flag}}" class="button" type="primary" bindtap="submit">提交信息</button> -->
+        <view style="margin-left: 161rpx;margin-top: 30rpx;" wx:if="{{btn_flag}}" class="btn2">提交信息</view>
+        <view wx:else style="margin-left: 161rpx;margin-top: 30rpx;" class="btn" bindtap="submit">提交信息</view>
+      <!-- </form> -->
+    </van-tab>
+    <van-tab title="自我介绍">
+      <!-- <form bindsubmit="submitNewStuInfo3"> -->
+        <view class="weui-cells weui-cells_form">
+          <view class="weui-cell">
+            <view class="weui-cell__bd">
+              <textarea class="weui-textarea" placeholder="请说明您之前的志愿者经历，特别是与社会服务相关的经验(时间、机构、工作内容等)或说明您对博物馆志愿服务工作的期待。"
+                placeholder-class="weui-input__placeholder" rows="3" minlength="{{min}}" maxlength="{{max}}"
+                bindinput="inputs" bindblur="bindTextAreaBlur" model:value="{{self_info}}"></textarea>
+              <view aria-role="option" class="weui-textarea-counter"><span>{{currentWordNumber|0}}</span>/{{max}}</view>
+            </view>
+          </view>
+        </view>
+        <!-- <button disabled="{{btn_flag}}" class="button" type="primary" bindtap="submit">提交信息</button> -->
+        <!-- <view wx:if="{{btn_flag}}" class="btn">提交信息</view> -->
+        <view style="margin-left: 161rpx;margin-top: 30rpx;" wx:if="{{btn_flag}}" class="btn2">提交信息</view>
+        <view wx:else style="margin-left: 161rpx;margin-top: 30rpx;" class="btn" bindtap="submit">提交信息</view>
+      <!-- </form> -->
+    </van-tab>
+  </van-tabs>
+</view>

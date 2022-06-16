@@ -1,0 +1,124 @@
+/* pages/reservation/reservation.wxss */
+.empty{
+  margin-top:60rpx;
+  width: 750rpx;
+  text-align: center;
+  color: rgb(84,101,207);
+  font-size: larger;
+}
+.emg{
+  width: 325rpx;
+  height: 325rpx;
+}
+.top_img{
+  margin: 0 auto;
+  width: 650rpx;
+  height: 120rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-bottom: 20rpx;
+  background-color: white;
+}
+.top_img_style{
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+.pageName {
+  font-size: 44rpx;
+  width: 100%;
+  height: 60rpx;
+  text-align: center;
+  background-color: white;
+}
+
+.show_box {
+  /* background-color: red; */
+  width: 650rpx;
+  height: 362rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-top-left-radius: 12rpx 8rpx;
+  border-top-right-radius: 12rpx 8rpx;
+  border-bottom-left-radius: 12rpx 8rpx;
+  border-bottom-right-radius: 12rpx 8rpx;
+}
+.title{
+  width: 100%;
+  font-size: 32rpx;
+  font-weight: bold;
+  display:-webkit-box;
+  -webkit-line-clamp:1;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  -webkit-box-orient:vertical;
+  word-break:break-all;
+}
+.card-bottom {
+  /* text-align: center; */
+  /* width: 585rpx; */
+  width: 650rpx;
+  font-size: 28rpx;
+  margin-bottom: 20rpx;
+}
+
+.down1 {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.signUpDetail {
+  /* width: 130rpx; */
+  height: 70rpx;
+  background-color: yellow;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+
+.signUp {
+  /* width: 130rpx; */
+  height: 70rpx;
+  background-color: green;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+
+.old {
+  /* width: 130rpx; */
+  height: 70rpx;
+  background-color: #c3c3c3;
+  line-height: 70rpx;
+  text-align: center;
+  font-size: 36rpx;
+}
+
+.content_img {
+  overflow: hidden;
+  height: 362rpx;
+  width: 650rpx;
+  padding: 0;
+}
+
+.logo_img {
+  width: 32rpx;
+  height: 32rpx;
+}
+.grey_title{
+  color: #c3c3c3;
+}
+.homework {
+  width: 650rpx;
+  margin: 0 50rpx;
+  display: -webkit-box;  /*设置为弹性盒子*/
+  -webkit-line-clamp: 5;  /*最多显示5行*/
+  overflow: hidden;  /*超出隐藏*/
+  text-overflow: ellipsis;  /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;  /*强制英文单词自动换行*/
+}
+

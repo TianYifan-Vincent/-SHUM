@@ -1,0 +1,32 @@
+<!--pages/showall_exhibits/showall_exhibits.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/art.png"></image>
+</view>
+<view class="container">
+  <!-- <view class="div1">
+        <image src="../../images/wenwu.png"></image>
+    </view> -->
+  <!-- <van-search value="{{ value }}" placeholder="请输入搜索关键词"  use-action-slot input-align="center" bind:search="onSearch" bind:change="onChange">
+        <view slot="action" bind:tap="onClick">搜索</view>
+    </van-search> -->
+  <view class="div2">
+    <navigator wx:for="{{on_show}}" wx:key="index" url="../exhibits_list/exhibits_list?cls={{item.name}}">
+      <view class="label">正在展出</view>
+      <view class="show_box">
+        <image src="{{item.img_path}}" />
+      </view>
+      <view class="intro">{{item.intro}}</view>
+      <view class="time">{{item.time}}</view>
+    </navigator>
+  </view>
+  <view class="div2">
+    <navigator wx:for="{{past_show}}" wx:key="index" url="../exhibits_list/exhibits_list?cls={{item.name}}">
+      <view class="label2">展览回顾</view>
+      <view class="show_box">
+        <image src="{{item.img_path}}" />
+      </view>
+      <view class="intro">{{item.intro}}</view>
+      <view class="time">{{item.time}}</view>
+    </navigator>
+  </view>
+</view>

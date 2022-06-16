@@ -1,0 +1,24 @@
+
+<van-cell-group>
+  <van-field style="background-color: transparent;" model:value="{{ title }}" label="标题" placeholder="请输入标题" border="{{ false }}" />
+  <!-- <van-datetime-picker
+  type="date"
+  value="{{ currentDate }}"
+  bind:input="onInput"
+  min-date="{{ minDate }}"
+  formatter="{{ formatter }}"
+  visible-item-count="4"
+  item-height="32"
+  title="活动时间"
+/> -->
+  <van-field style="background-color: transparent;" model:value="{{ link }}" label="链接" type="textarea" placeholder="请粘贴推文链接" autosize border="{{ false }}" />
+</van-cell-group>
+<!-- <view class="picArea"> -->
+  <view wx:for="{{pictureArr}}" wx:key="index">
+    <image style="width: 650rpx;margin-left: 50rpx;" mode="widthFix" class="imgStyle" src="{{item}}"></image>
+  </view>
+<!-- </view> -->
+<view class="btn"  bindtap="clickBtn">选择图片</view>
+<view class="btn" bindtap="btnSub" type="primary">插入数据库</view>
+<view class="btn" bindtap="clearAll">重置</view>
+

@@ -1,0 +1,66 @@
+<!--pages/recruitVolunteers/recruitVolunteers.wxml-->
+<view>
+  <van-tabs>
+    <van-tab title="未审核">
+      <view wx:if="{{empty1==0}}">
+        <view class="box">
+          <image class="emg" src="../../images/done.png"></image>
+          <view>已全部审核完毕</view>
+        </view>
+      </view>
+      <view wx:for="{{ne}}" wx:key="vol_info">
+        <view style="width: 750rpx;">
+          <view class="text_glass">
+            <text class='line'></text>
+            <van-cell-group>
+              <van-cell title="志愿者序号" value="{{index+1}}" />
+              <van-cell title="名字" value="{{item.stuName}}" />
+              <van-cell title="专业" value="{{item.major}}" />
+              <van-cell title="性别" value="{{item.gender}}" />
+              <van-cell title="联系方式" value="{{item.phone}}" />
+              <van-cell title="邮箱" value="{{item.email}}" />
+              <van-cell title="个人专长" value="{{item.expertise}}" />
+              <van-cell title="语言能力" value="{{item.language}}" />
+              <van-cell title="是否有志愿者经验" value="{{item.experience}}" />
+              <van-cell title="平时空余的可服务时间" value="{{item.time}}" />
+              <van-cell title="自我介绍" value="{{item.self_info}}" />
+            </van-cell-group>
+            <view class="btnbox">
+              <!-- <button style="width: 300rpx;margin-top: 10rpx;" type="primary" bindtap="check" id="{{index+1}}" disabled="{{item.flag=='待审核'?false:true}}">审核通过</button> -->
+              <view  class="Btn" bindtap="check" id="{{index+1}}" disabled="{{item.flag=='待审核'?false:true}}">审核通过</view>
+              <!-- <button style="width: 300rpx;margin-top: 10rpx;" type="warn" bindtap="cancle" id="{{index+1}}">不通过</button> -->
+              <view  class="Btn2" bindtap="cancle" id="{{index+1}}">不通过</view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="已通过">
+      <view wx:if="{{empty2==0}}">
+        <view class="box">
+          <image class="emg" src="../../images/empty.png"></image>
+          <view>志愿者列表为空</view>
+        </view>
+      </view>
+      <view wx:for="{{ne2}}" wx:key="vol_info2">
+        <view class="text_glass">
+          <text class='line'></text>
+          <van-cell-group>
+            <van-cell title="志愿者序号" value="{{index+1}}" />
+            <van-cell title="名字" value="{{item.stuName}}" />
+            <van-cell title="专业" value="{{item.major}}" />
+            <van-cell title="性别" value="{{item.gender}}" />
+            <van-cell title="联系方式" value="{{item.phone}}" />
+            <van-cell title="邮箱" value="{{item.email}}" />
+            <van-cell title="个人专长" value="{{item.expertise}}" />
+            <van-cell title="语言能力" value="{{item.language}}" />
+            <van-cell title="是否有志愿者经验" value="{{item.experience}}" />
+            <van-cell title="平时空余的可服务时间" value="{{item.time}}" />
+            <van-cell title="自我介绍" value="{{item.self_info}}" />
+          </van-cell-group>
+          <!-- <button type="primary" bindtap="check" id="{{index+1}}" disabled="{{item.flag=='待审核'?false:true}}">审核通过</button> -->
+        </view>
+      </view>
+    </van-tab>
+  </van-tabs>
+</view>

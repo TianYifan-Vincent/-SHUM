@@ -1,0 +1,44 @@
+<!--pages/reservation_detail/reservation_detail.wxml-->
+
+<view class="img_box">
+  <image class="im" style="width: 650rpx;" mode="widthFix" src="{{mydic.url}}"></image>
+</view>
+<view class="title ">{{mydic.title}}</view>
+<view class="text_glass box">
+  <text class='line1'></text>
+  <view class="category">
+    <view class="dot"></view>
+    <text class="grey_title">活动开始时间：</text>{{mydic.time}}
+  </view>
+  <view class="category">
+    <view class="dot"></view>
+    <text class="grey_title">活动时长：</text>{{mydic.duration}}h
+  </view>
+  <view class="category">
+    <view class="dot"></view>
+    <text class="grey_title">活动地点：</text>{{mydic.location}}
+  </view>
+  <view class="category">
+    <view class="dot"></view>
+    <text class="grey_title">已报名：</text><text class="signed">{{mydic.signUp}}</text>/{{mydic.members}}
+  </view>
+  <text class='line2'></text>
+</view>
+<view class="category_bold">
+  <view class="text_glass">
+    <text class="grey_title_bold">活动内容：</text>{{mydic.content}}
+  </view>
+</view>
+
+<view class="bottom_btn">
+  <view class="butt" wx:if="{{mydic.uploadtime<currentDate}}">
+    活动已结束
+  </view>
+  <view wx:else>
+    <view class="butt" wx:if="{{mydic.signUp>=mydic.members}}">
+      人数已满
+    </view>
+    <view class="butt" wx:else data-title="{{mydic.title}}" bindtap="signUp">报名
+    </view>
+  </view>
+</view>

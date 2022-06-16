@@ -1,0 +1,53 @@
+/* pages/myvol/myvol.wxss */
+.box {
+  margin: 50rpx 50rpx;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  width: 650rpx;
+  text-align: center;
+  /* color: rgb(84,101,207); */
+  font-size: larger;
+  background-color: rgba(255,255,255,0.35);
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+
+.emg {
+  width: 325rpx;
+  height: 325rpx;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.div1 image {
+  width: 120rpx;
+  height: 120rpx;
+  padding-bottom: 20rpx;
+}
+
+.div2 {
+  font-size: medium;
+  font-weight: bolder;
+  font-size: 36rpx;
+  margin-left: 50rpx;
+  
+}
+
+.div3 {
+  color: red;
+  text-align: center;
+}
+
+.div4 {
+  border: 8rpx solid aqua;
+  width: auto;
+  height: auto;
+  text-align: center;
+}

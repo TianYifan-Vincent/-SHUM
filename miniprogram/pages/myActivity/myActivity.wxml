@@ -1,0 +1,23 @@
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/box.png"></image>
+</view>
+<view wx:for="{{activity}}" wx:key="index">
+  <view class="show_box" data-id="{{item._id}}" data-content="{{item.content}}" data-url="{{item.fileID[0]}}" data-title="{{item.title}}" data-signUp="{{item.signUp}}" data-members="{{item.members}}" data-time="{{item.time}}" data-duration="{{item.duration}}" data-upLoadTime="{{item.upLoadTime}}"
+  data-location="{{item.location}}" 
+  bindtap="to_detail" class="show_box">
+    <!-- 活动的图片 -->
+    <image class="content_img" mode="top" src="{{item.fileID[0]}}"></image>
+    
+  </view>
+  <view class="homework">
+    <view class="title">{{item.title}}</view>
+    <view class="card-bottom">
+      <view>
+        <text class="grey_title">时间：</text><text>{{item.time}}</text>
+      </view>
+      <view>
+        <text class="grey_title">地点：</text><text>{{item.location}}</text>
+      </view>
+    </view>
+  </view>
+</view>

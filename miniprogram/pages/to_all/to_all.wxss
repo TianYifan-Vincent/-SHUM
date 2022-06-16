@@ -1,0 +1,71 @@
+/* pages/to_all/to_all.wxss */
+container {
+    padding: 10rpx 30rpx;
+  }
+  .div1 {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+  }
+  .div1 image {
+    width: 150rpx;
+    height: 120rpx;
+  }
+.div2{
+  margin-left: 50rpx;
+}
+.div2 image{
+  width: 650rpx;
+  height: 400rpx;
+}
+.intro{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align:center;
+}
+.time{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+  font-weight: 550;
+  color:#909090 ;
+  margin: 10rpx 0;
+}
+.label{
+  display: flex;
+  position: absolute;
+  font-size: small;
+  color: white;
+  font-weight: 400;
+  align-items:center;
+  justify-content:center;
+  background-color: #6e7b8a;
+  width: 200rpx;
+  height: 60rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+}
+.label2{
+  display: flex;
+  position: absolute;
+  font-size: small;
+  color: #6e7b8a;
+  font-weight: 400;
+  align-items:center;
+  justify-content:center;
+  background-color: #efe1d6;
+  width: 200rpx;
+  height: 60rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+}
+.box{
+  width: 650rpx;
+  height: 400rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  overflow: hidden;
+}

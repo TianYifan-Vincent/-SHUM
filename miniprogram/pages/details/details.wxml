@@ -1,0 +1,74 @@
+<page-meta page-style="{{ pStyle}}" />
+<!-- pop层 -->
+<van-popup show="{{ TopShow }}" lockscroll="true" position="top" closeable bind:close="OnClose" custom-style="height: 100%;">
+  <image mode="aspectFit" bindtap="OnClose" class="pop" src="{{Pic}}" />
+</van-popup>
+
+<!-- 布局 -->
+<view class="bg">
+  <!-- 图片层 -->
+  <view class="ImgBorder">
+    <!-- 背景图片 -->
+    <image src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F3fc92f96d1c1eece3f36d2e4d279715986c297069304-1UISTx_fw658&refer=http%3A%2F%2Fhbimg.b0.upaiyun.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1643968135&t=299f60073a61e6fda93768f8a67d12ec" />
+    <!-- 设置进入动画 -->
+    <van-transition class="Img" show="{{ !TopShow }}" duration="{{ { enter: 400, leave: 1000 } }}" enter-class="van-enter-class" enter-active-class="van-enter-active-class" leave-active-class="van-leave-active-class" leave-to-class="van-leave-to-class" name="slide-up">
+      <!-- 文物图片 -->
+      <van-image bind:tap="MovePic" width="30vw" height="20vh" fit="contain" src="{{Pic}}" />
+    </van-transition>
+  </view>
+  <!-- 分割线 -->
+  <!-- 文字层 -->
+
+  <scroll-view upper-threshold="800rpx" scroll-y="{{true}}">
+    <!-- 标题 -->
+    <view class="text_glass">
+    <view class="Name">
+      {{Name}}
+    </view>
+
+    <!-- 地址 -->
+    <view class="Location">
+      <van-icon name="location" />
+      {{Location}}
+    </view>
+
+    <!-- 标签 -->
+    <view class="Tags">
+      <view class="Tag" wx:for="{{Tags}}" wx:key="index" color="#898780" text-color="black">
+        {{item}}
+      </view>
+    </view>
+  </view>
+    <!-- 文字介绍 -->
+    <!-- <van-divider style"{{color:gray}}" /> -->
+    <view class="Introduce">
+      <view class="IntroduceTit">
+        藏品介绍
+      </view>
+      <!-- 分割线 -->
+      <van-divider />
+      <view class="IntroduceCont" wx:for="{{Introduction}}" wx:key="index">
+        {{item}}
+      </view>
+    </view>
+  </scroll-view>
+
+  <!-- 媒体层 -->
+  <view class="medium">
+    <!-- 音乐 -->
+    <view class="status">
+      <van-icon class="StatusIcon" size="50rpx" name="{{MusicIcon}}" />
+      {{status}}
+    </view>
+    <view class="music" bindtap="audioPlay" style="text-align: center;background-color: #c3c3c3;">
+      <van-icon size="50rpx" name="{{PlayIcon}}" />
+    </view>
+
+    <!-- 分享 -->
+    <view class="share">
+      <van-icon size="50rpx" name="share-o" />
+      分享页面
+      <button open-type="share" />
+    </view>
+  </view>
+</view>

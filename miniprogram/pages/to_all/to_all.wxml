@@ -1,0 +1,38 @@
+<!--pages/to_all/to_all.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/to_all.png"></image>
+</view>
+<view class="container">
+  <!-- <view class="div1">
+    <image src="../../images/to_all.png"></image>
+  </view> -->
+  <van-tabs>
+    <van-tab title="当前展览">
+      <view class="div2">
+        <navigator wx:for="{{on_show}}" wx:key="index" url="../../pages/exhibition_detail/exhibition_detail?name={{item.name}}">
+          <view class="box">
+            <view class="label">正在展出</view>
+            <image src="{{item.img_path}}" />
+          </view>
+          <view class="intro">{{item.intro}}</view>
+          <view class="time">{{item.period}}</view>
+        </navigator>
+      </view>
+    </van-tab>
+    <van-tab title="展览回顾">
+      <view class="div2">
+        <navigator wx:for="{{past_show}}" wx:key="index" url="../../pages/exhibition_detail/exhibition_detail?name={{item.name}}">
+          <view class="box">
+            <view class="label2">展览回顾</view>
+            <image src="{{item.img_path}}" />
+          </view>
+          <view class="intro">{{item.intro}}</view>
+          <view class="time">{{item.time}}</view>
+        </navigator>
+      </view>
+    </van-tab>
+  </van-tabs>
+  <view class="weui-loadmore weui-loadmore_line" wx:if="{{bottom}}">
+    <text class="weui-loadmore_tips" style="color: gray;">暂无更多</text>
+  </view>
+</view>

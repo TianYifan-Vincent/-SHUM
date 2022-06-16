@@ -1,0 +1,47 @@
+/**app.wxss**/
+.btn{
+  border: 2rpx solid #0991e0;
+  text-align: center;
+  line-height: 90rpx;
+  margin-left: 191rpx;
+  margin-bottom: 30rpx;
+  width: 368rpx;
+  height: 90rpx;
+  color:#0991e0;
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn2{
+  border: 2rpx solid tomato;
+  text-align: center;
+  line-height: 90rpx;
+  margin-left: 191rpx;
+  margin-bottom: 30rpx;
+  width: 368rpx;
+  height: 90rpx;
+  color:tomato;
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top_img{
+  margin: 0 auto;
+  width: 650rpx;
+  height: 120rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  margin-bottom: 20rpx;
+  background-color: white;
+}
+.top_img_style{
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+@import 'weui.wxss'

@@ -1,0 +1,2 @@
+<!--pages/VRpanoramaDetail/VRpanoramaDetail.wxml-->
+<web-view src="{{link}}"></web-view>

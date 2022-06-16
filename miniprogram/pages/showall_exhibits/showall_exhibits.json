@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarTitleText": "文物藏品",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "van-search": "@vant/weapp/search/index"
+  }
+}

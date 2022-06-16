@@ -1,0 +1,47 @@
+<!--
+此文件为开发者工具生成，生成时间: 2022/4/5 下午12:18:39
+使用方法：
+在 D:\WxSmallSource\xuezi3\miniprogram\pages\exhibits_list\exhibits_list.wxml 引入模板
+
+```
+<import src="exhibits_list.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\WxSmallSource\xuezi3\miniprogram\pages\exhibits_list\exhibits_list.wxss 中引入样式
+```
+@import "./exhibits_list.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <scroll-view scroll-y="true" style="height:603px">
+      <view class="body" style="width:100%">
+        <view class="show_box" data-content="undefined" data-id="undefined">
+          <navigator hover-class="navigator-hover" open-type="navigate">
+            <image class="img sk-image" style="width: 100%; height: 193.036px; border: none;"></image>
+            <view class="img_title sk-transparent sk-text-18-7500-471 sk-text" style="background-position-x: 50%;">杨大眼造像龛</view>
+          </navigator>
+          <navigator hover-class="navigator-hover" open-type="navigate">
+            <image class="img sk-image" style="width: 100%; height: 178.797px; border: none;"></image>
+            <view class="img_title sk-transparent sk-text-18-7500-655 sk-text" style="background-position-x: 50%;">始平公造像龛 </view>
+          </navigator>
+          <navigator hover-class="navigator-hover" open-type="navigate">
+            <image class="img sk-image" style="width: 100%; height: 205.641px; border: none;"></image>
+          </navigator>
+        </view>
+        <view class="show_box" data-content="undefined" data-id="undefined">
+          <navigator hover-class="navigator-hover" open-type="navigate">
+            <image class="img sk-image" style="width: 100%; height: 400.109px; border: none;"></image>
+            <view class="img_title sk-transparent sk-text-18-7500-410 sk-text" style="background-position-x: 50%;">杨大眼造像题记</view>
+          </navigator>
+          <navigator hover-class="navigator-hover" open-type="navigate">
+            <image class="img sk-image" style="width: 100%; height: 219.119px; border: none;"></image>
+          </navigator>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</template>

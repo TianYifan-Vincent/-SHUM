@@ -1,0 +1,1 @@
+"D:\Program Files (x86)\WeChatAPP\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-6gn92kuf97d4a56e --n quickstartFunctions --r --project "D:\xuezi" --report_first --report

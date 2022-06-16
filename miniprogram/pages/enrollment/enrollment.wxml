@@ -1,0 +1,41 @@
+<!--pages/enrollment/enrollment.wxml-->
+<view class="container">
+  <view class="top_img">
+    <image class="top_img_style" mode="heightFix" src="../../images/license.png"></image>
+  </view>
+  <view class="div2">
+    <view class="block1">
+      <text class='title1' style="color:#0991e0">我们对您的希望</text>
+      <text class='fengefu1' style="border-color:#0991e0"></text>
+      <text class='content'>
+        1、热心博物馆公益事业，具有良好文化素养；
+
+        2、乐观向上、诚实守信、具有团队精神；
+
+        3、每周服务时间不少于2小时（寒暑假除外）；
+
+        4、目前是上海大学在籍学生、教职工或退休教职工；
+
+        5、能够自觉遵守博物馆的各项规章制度及相关准则。
+      </text>
+    </view>
+    <view class="block2">
+      <text class='title1' style="color:#eaaf70">志愿者培训及考核流程</text>
+      <text class='fengefu1' style="border-color:#eaaf70;margin-right: 350rpx;"></text>
+      <text class='content'>
+        1、报名——博物馆常年接受报名、定期招募，本次招募截止日期为2022年5月31日；
+
+        2、面试——博物馆根据需要定期选择报名者参加面试；
+
+        3、知识培训——面试通过者参加岗前培训，主要内容包括志愿者活动的意义与价值观，博物馆志愿者规章制度及仪容仪表、讲解技巧、礼仪基础、博物馆知识等；
+
+        4、考核——岗前培训后，按照各岗位要求进行考核；
+
+        5、上岗——通过考核后即可正式上岗，成为志愿者团队的一员。
+      </text>
+    </view>
+  </view>
+</view>
+<view class="div3" bindtap="gotoDetail">
+  <text class="apply">申请成为志愿者</text>
+</view>

@@ -1,0 +1,47 @@
+.all_ex{
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.cardTitle{
+  /* background-color: yellow; */
+  color: #487a9b;
+  /* width: 50%; */
+  padding: 90rpx 60rpx;
+  font-size: 40rpx;
+  font-weight: 300;
+  transform: skew(-10deg, 0deg);
+  position: relative;
+  text-shadow: 0px 0px 6rpx rgba(51, 1, 66, 0.3);
+  font-family: SimSun;
+  margin-bottom: 20rpx;
+  /* border: tomato solid 2rpx; */
+}
+
+.cardTitle::before{
+  content: "";
+  position: absolute;
+  width: 60rpx;
+  height: 6rpx;
+  border-radius: 20rpx;
+  background-color: #fff;
+  /* background-color: red; */
+  display: block;
+  top: 60rpx;
+  left: 50rpx;  
+  transform: skew(10deg, 0deg);
+}
+.cardTitle::after{
+  content: "";
+  position: absolute;
+  width: 140rpx;
+  border-radius: 6rpx;
+  height: 24rpx;
+  background-color: #fff;
+  /* background-color: red; */
+  display: block;
+  bottom: 76rpx;
+  left: 90rpx;  
+  transform: skew(10deg, 0deg);
+  opacity: 0.3;
+}

@@ -1,0 +1,78 @@
+/* pages/administrator/administrator.wxss */
+.box{
+  /* height: 100vh; */
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* justify-content: space-between; */
+  /* background-color: skyblue; */
+}
+.flower{
+  /* position: absolute;
+  top: -260rpx; */
+  width: 750rpx;
+  height: 1110rpx;
+  position: fixed;
+  bottom: 0;
+  z-index: -1;
+}
+.f_card{
+  width: 550rpx;
+  height: 100rpx;
+  /* border: 1px solid rgba(195,195,196,.6); */
+  text-align: center;
+  line-height: 100rpx;
+  margin: 40rpx 0;
+  margin-left: 100rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.top_img{
+  margin: 0 auto;
+  width: 650rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.top_img_style{
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+.adminBox{
+  margin: 30rpx 0;
+  position: relative;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+ 
+}
+.bg1{
+  position: fixed;
+  left: -20rpx;
+  top: 30rpx;
+  z-index: -1;
+}
+.bg2{
+  position: fixed;
+  right: -10rpx;
+  z-index: -1;
+  top: 60vh;
+}
+.logo{
+  width: 650rpx;
+  height: 400rpx;
+  border-top-left-radius:14rpx 9rpx;
+  border-top-right-radius:14rpx 9rpx;
+  border-bottom-left-radius: 14rpx 9rpx;
+  border-bottom-right-radius: 14rpx 9rpx;
+  z-index: 1;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+.txt{
+  width: 600rpx;
+  height: 160rpx;
+  position: absolute;
+  bottom: 120rpx;
+  font-size: large;
+  z-index: 2;
+}

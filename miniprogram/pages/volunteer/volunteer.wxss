@@ -1,0 +1,90 @@
+/* pages/volunteer/volunteer.wxss */
+.top_img{
+  margin: 0 auto;
+  width: 650rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.top_img_style{
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+.container {
+  padding: 10rpx 30rpx;
+}
+.container image {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  border-radius: 25rpx;
+}
+.div1 {
+  background-color:#f6f6f6;
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+.imgwrapper{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+.passage1{
+  display:flex;
+  color: #a7a9ab;
+  font-weight: bold;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  align-items: center;
+  justify-content: center;
+}
+
+/*小标题  */
+.title1 {
+  font-size: 35rpx;
+  font-weight: 900;
+  color: #0991e0;
+  margin-top: 50rpx;
+  display: block;
+}
+/*分隔符  */
+.fengefu1 {
+  border-bottom: 8rpx solid pink;
+  padding: 8rpx 0rpx;
+  margin-right: 500rpx;
+  display: block;
+}
+.div2 {
+  display: flex;
+  /* border-style: solid; */
+  /* border-width: 2px; */
+  /* border-color: #dbdbdb; */
+  background-color:#f6f6f6;
+  width: 100%;
+  height: 170rpx;
+  margin-top: 20rpx ;
+  border-top-left-radius: 12rpx 8rpx;
+  border-top-right-radius: 12rpx 8rpx;
+  border-bottom-left-radius: 12rpx 8rpx;
+  border-bottom-right-radius: 12rpx 8rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+.div2 text {
+  font-size: 26rpx;
+  display: -webkit-box;  /*设置为弹性盒子*/
+  -webkit-line-clamp: 3;  /*最多显示5行*/
+  overflow: hidden;  /*超出隐藏*/
+  text-overflow: ellipsis;  /*超出显示为省略号*/
+  -webkit-box-orient: vertical;
+  word-break: break-all;  /*强制英文单词自动换行*/
+}
+.scrollView-wrapper {
+  flex: 1;
+  overflow: hidden;
+}

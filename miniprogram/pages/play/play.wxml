@@ -1,0 +1,53 @@
+
+<view></view>
+<view class="playbox">
+    <!-- <image class="mainimg" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fauction1-img.artimg.net%2FImg%2Fimage%3Fsrc%3Dhttps%3A%2F%2Fimg4.artron.net%2Fexhibit%2F201811%2F2018110516383650063.jpg%26w%3D1080%26h%3D1080&refer=http%3A%2F%2Fauction1-img.artimg.net&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1641788985&t=a76127795ef13de73b150f52ace50d7c"></image> -->
+    <image class="mainimg" src="../../images/d1.png"></image>
+
+    <view class="Name">XX展品</view>
+
+    <view class="lrcbox">
+        <scroll-view scroll-y="false">
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+            <view>文本文本文本</view>
+        </scroll-view>
+    </view>
+
+</view>
+
+<!-- 进度条 -->
+<view class="timebox">
+    <view class="play_time">00:00</view>
+    <slider block-size="12" activeColor="#888"></slider>
+    <view class="end_time">30:15</view>
+
+</view>
+
+
+<!-- 底部按钮 -->
+<view class="btmbox">
+    <image src="/images/更多.png"></image>
+    <image src="/images/上一个.png"></image>
+    <image class="play" src="/images/播放.png"></image>
+    <image src="/images/下一个.png"></image>
+    <image src="/images/书.png"></image>
+</view>

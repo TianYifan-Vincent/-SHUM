@@ -1,0 +1,52 @@
+<!--pages/transfer/transfer.wxml-->
+<view class="bk"></view>
+<view class="selection_wrapper">
+  <!-- <view wx-if="{{images[(swiperIndex2+1)%6]}}">
+    <image class="show-image" src="{{images[(swiperIndex2+1)%6]}}" />
+  </view>
+
+  <view wx-if="{{!images[(swiperIndex2+1)%6]}}">
+    <view wx:if='{{images}}'>
+      <image class="show-image" src="{{images}}" />
+    </view>
+  </view> -->
+  <view wx:if="{{length==6}}">
+    <image class="show-image" src="{{images[(swiperIndex2+1)%6]}}" />
+  </view>
+  <view wx:else>
+    <image class="show-image" src="{{images[0]}}" />
+  </view>
+  <view class="label" bindtap="saveimg">保存图片</view>
+</view>
+
+
+<swiper class='swiperClass2' interval="2500" autoplay duration="1000" circular previous-margin="25px" next-margin="25px" display-multiple-items='3' bindchange="bindchange2" style="height: 280rpx;">
+  <block wx:for="{{images}}" wx:key="index">
+    <swiper-item>
+      <view class="f_wrapper {{(swiperIndex2+1)%6 == index ? 'active' : 'quiet'}}">
+        <image src="{{style[index]}}" class="f_background2" />
+        <view class="name">{{style_name[index]}}</view>
+      </view>
+    </swiper-item>
+  </block>
+</swiper>
+
+
+<!-- <view class="button"> -->
+<view wx:if="{{transfer}}" class="btn" type="primary" bindtap="chanceImg">选择图片
+</view>
+<view wx:else class="btn2" type="default">选择图片
+</view>
+<view wx:if="{{transfer}}" class="btn" type="primary" bindtap="stylize">风格化
+</view>
+<view wx:else class="btn2" type="default">风格化
+</view>
+<view wx:if="{{transfer}}" class="btn" type="primary" bindtap="reset">重置
+</view>
+<view wx:else class="btn2" type="default">重置
+</view>
+
+<yeyouzi-cropper id="yeyouzi-cropper" style="width: 100%;height: 100%;">
+</yeyouzi-cropper>
+
+<!-- </view> -->

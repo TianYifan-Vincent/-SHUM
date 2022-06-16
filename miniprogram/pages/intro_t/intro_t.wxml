@@ -1,0 +1,28 @@
+<view class="container">
+  <!--标题  -->
+  <view class="title">
+    <text class="biaoti">上海大学博物馆│海派文化博物馆</text>
+    <!--标题分割线  -->
+    <view class='line'></view>
+  </view>
+
+  <image class="con_image" src="../../images/museum1.png"></image>
+  <view class="flower_box">
+    <image class="flower" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image>
+    <view class="text_glass">
+      <text class="passage1" decode="{{true}}" space="{{true}}" user-select="true">&emsp;&emsp;上海大学博物馆由海派文化博物馆、上海方言文化展示体验馆、上海大学校史馆、钱伟长纪念馆、溯园的“四馆一园”组成，现为上海市爱国主义教育基地、上海市社会科学普及示范基地、中国博物馆协会高校博物馆专委会副主任委员单位。现任馆长为李明斌教授。\n
+        &emsp;&emsp;博物馆于2008年起筹建，2012年10月主体建筑奠基，2017年竣工，2018年底试运行开放。馆址位于上海大学宝山校本部东区钱伟长图书馆内，面积5000平方米，内设基本陈列、临时展厅、藏品库房、办公区域、观众服务区域和安全保卫区域等。另有面积1800平方米“溯园：上海大学（1922—1927）”室外展区。\n
+        &emsp;&emsp;作为一座以上海城市命名的综合性大学的博物馆，上海大学博物馆规划以海派文化作为基本陈列的主题，未来将呈现关于上海近现代城市大众文化和流行艺术的作品，体现上海文化底蕴和海派文化精神。同时反映上海大学的校史，纪念钱伟长老校长的生平，将定期举办临时展览，服务于上海大学学科建设和师生校友，并向全社会免费开放。</text>
+    </view>
+  </view>
+  <view class="pas2">
+    <text class="passage2">\n参观信息
+      地址：上海市宝山区南陈路333号 上海大学博物馆
+      开放时间：9 : 00—16 : 00（周末和节假日暂不开放）\n
+      地址：上海市宝山区上大路99号 溯园：上海大学（1922—1927）
+      开放时间：8 : 30—16 : 30（全年开放）</text>
+  </view>
+  <text class='title1' bindtap="gotoDetail">[溯园]</text>
+  <text class='fengefu1'></text>
+  <image class="con_image" src="../../images/suyuan2.jpg" style="margin-top:10px" bindtap="gotoDetail"></image>
+</view>

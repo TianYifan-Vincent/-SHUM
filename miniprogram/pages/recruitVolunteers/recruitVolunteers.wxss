@@ -1,0 +1,94 @@
+/* pages/recruitVolunteers/recruitVolunteers.wxss */
+/* .container {
+  padding: 10rpx 50rpx;
+} */
+.btnbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Btn{
+  border: 2rpx solid #0991e0;
+  text-align: center;
+  line-height: 90rpx;
+  /* margin-left: 191rpx; */
+  /* margin-bottom: 30rpx; */
+  width: 300rpx;
+  height: 90rpx;
+  color:#0991e0;
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.Btn2{
+  border: 2rpx solid tomato;
+  text-align: center;
+  line-height: 90rpx;
+  /* margin-left: 191rpx; */
+  /* margin-bottom: 30rpx; */
+  width: 300rpx;
+  height: 90rpx;
+  color:tomato;
+  border-top-left-radius: 12rpx 10rpx;
+  border-top-right-radius: 12rpx 10rpx;
+  border-bottom-left-radius: 12rpx 10rpx;
+  border-bottom-right-radius: 12rpx 10rpx;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.list_box {
+  /* border: red solid 2rpx; */
+  overflow: hidden;
+  width: 650rpx;
+  height: auto;
+  margin: 30rpx 50rpx;
+}
+
+.line {
+  border-bottom: 2rpx solid #0991e0;
+  padding: 0rpx 10rpx;
+  display: block;
+  margin-top: 38rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+}
+.box {
+  margin: 50rpx 50rpx;
+  padding-top: 50rpx;
+  padding-bottom: 50rpx;
+  width: 650rpx;
+  text-align: center;
+  /* color: rgb(84,101,207); */
+  font-size: larger;
+  background-color: rgba(255,255,255,0.35);
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+}
+
+.emg {
+  width: 325rpx;
+  height: 325rpx;
+}
+.text_glass {
+  background-color: rgba(255, 255, 255, 0.35);
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  padding: 15rpx 10rpx;
+  width: 650rpx;
+  /* margin-right: 50rpx; */
+  /* background-color: red; */
+  overflow: hidden;
+  width: 650rpx;
+  height: auto;
+  margin: 30rpx auto;
+  /* margin-left: 50rpx;
+  margin-right: 50rpx; */
+  /* margin: 30rpx 50rpx; */
+}

@@ -1,0 +1,40 @@
+<!--pages/relic/relic.wxml-->
+<!-- <button type="primary" bindtap="audioPlay">播放</button>
+-----
+<button type="primary" bindtap="audioPause">暂停</button>
+------
+<button type="primary" bindtap="audioStart">回到开头</button>
+---- -->
+
+<view>
+    <image 
+    class="music" 
+    bindtap="music"
+    src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E9%9F%B3%E4%B9%90.png?sign=8134910f68f512bcddc30d32eedfb876&t=1637829875">
+    </image>
+</view>
+<view class="content">
+  
+  <view class = 'cover' style='position:relative'>
+    <image class = 'coverbackground' 
+    bindtouchstart="touchStart" bindtouchmove="touchMove" bindtouchend="touchEnd"
+    src='https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E6%96%87%E7%89%A92.jpg?sign=eeec7c15b7d6987befc2a591a01df69a&t=1637832009' style='position:absolute'>
+    </image>
+    <image class = 'coverbutton' 
+    src='https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/pushdown.png?sign=9357d8d83382f6b46bf9bebdba213f27&t=1637831980' 
+    style='position:absolute;bottom:20rpx;left:350rpx' 
+    bindtap='pushdown'
+    
+    />
+  </view>
+</view>
+<view>
+  <image
+  class="r_image"
+  src='https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E6%96%87%E7%89%A92.jpg?sign=eeec7c15b7d6987befc2a591a01df69a&t=1637832009'
+  ></image>
+  <view class="name1">名称</view>
+  <view>属性</view>
+  <view class="name2">藏品介绍</view>
+  <view class="detail">具体介绍内容</view>
+</view>

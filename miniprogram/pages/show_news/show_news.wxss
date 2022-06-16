@@ -1,0 +1,19 @@
+/* pages/show_news/show_news.wxss */
+.delBtn{
+  width:160rpx ;
+  height: 90rpx;
+  background-color: #c3c3c3;
+  line-height: 90rpx;
+  font-size: 40rpx;
+  color: red;
+  text-align: center;
+}
+.back{
+  width: 160rpx;
+  height: 90rpx;
+  background-color: green;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  text-align: center;
+
+}

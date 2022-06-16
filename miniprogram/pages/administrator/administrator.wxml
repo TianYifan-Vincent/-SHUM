@@ -1,0 +1,42 @@
+<!--pages/administrator/administrator.wxml-->
+
+<!-- <view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/admin.png"></image>
+</view>
+<view class="adminBox" bindtap="releaseNews">
+  <image class="logo" src="cloud://cloud1-6gn92kuf97d4a56e.636c-cloud1-6gn92kuf97d4a56e-1307723956/admin_pic/newsletter.png"></image>
+  <image class="txt" src="../../images/top_img/newstxt.png"></image>
+</view>
+<view class="adminBox" bindtap="releaseActivity">
+  <image class="logo" src="cloud://cloud1-6gn92kuf97d4a56e.636c-cloud1-6gn92kuf97d4a56e-1307723956/admin_pic/activity.png"></image>
+  <image class="txt" src="../../images/top_img/activitytxt.png"></image>
+</view>
+<view class="adminBox" bindtap="recruitVolunteers">
+  <image class="logo" src="cloud://cloud1-6gn92kuf97d4a56e.636c-cloud1-6gn92kuf97d4a56e-1307723956/admin_pic/team.png"></image>
+  <image class="txt" src="../../images/top_img/teamtxt.png"></image>
+</view> -->
+
+<image class="flower" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image>
+<view class="box">
+  <view wx:if="{{volunteer}}" class="f_card" data-id="{{userId}}" bindtap="change_volunteer">
+    <view class="fun_text" style="color: tomato;">关闭志愿者功能</view>
+  </view>
+  <view wx:else class="f_card" data-id="{{userId}}" bindtap="change_volunteer">
+    <view class="fun_text">开放志愿者功能</view>
+  </view>
+  <view wx:if="{{transfer}}" class="f_card" data-id="{{userId}}" bindtap="change_transfer">
+    <view class="fun_text" style="color: tomato;">关闭趣变功能</view>
+  </view>
+  <view wx:else class="f_card" data-id="{{userId}}" bindtap="change_transfer">
+    <view class="fun_text">开放趣变功能</view>
+  </view>
+  <view class="f_card" data-id="{{userId}}" bindtap="releaseNews">
+    <view class="fun_text">管理资讯</view>
+  </view>
+  <view class="f_card" data-id="{{userId}}" bindtap="releaseActivity">
+    <view class="fun_text">管理活动</view>
+  </view>
+  <view class="f_card" data-id="{{userId}}" bindtap="recruitVolunteers">
+    <view class="fun_text">管理志愿者</view>
+  </view>
+</view>

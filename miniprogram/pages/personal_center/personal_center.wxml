@@ -1,0 +1,49 @@
+<!--pages/personal_center/personal_ceter.wxml-->
+<!-- 登录 -->
+<view class="flower_box">
+<image class="flower" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/%E7%8E%89%E5%85%B0%E6%97%A0%E8%83%8C%E6%99%AF.png?sign=ef7df24e4ea3a040df9c7489a165a11f&t=1641119550"></image>
+<view class="pagebox">
+<view class="userInfo" wx:if="{{!logIn}}">
+  <view class="avatarbox">
+    <!-- <image class="avatar" src="{{head_border}}"></image> -->
+    <image class="avatarPhoto" src="https://636c-cloud1-6gn92kuf97d4a56e-1307723956.tcb.qcloud.la/mypicture/Default_Avatar.png?sign=fc9f0f143b943d5de9fd53548072a37c&t=1642833497"> </image>
+    <view class="mylogin" bindtap="getUserProfile">点击登录</view>
+  </view>
+
+</view>
+<view wx:if="{{logIn}}">
+  <view class="avatarbox2">
+    <image class="avatarPhoto" mode="scaleToFill" src="{{userInfo.avatarUrl}}"></image>
+    <!-- <image class="avatar" src="{{head_border}}"></image> -->
+    <view class="mylogin">你好！{{userInfo.nickName}}</view>
+  </view>
+
+</view>
+<!-- <view class="char1">
+  <image style="opacity:{{0.6}}" src="../../images/top_img/gu.png"></image>
+</view>
+<view class="char2">
+  <image style="opacity:{{0.7}}" src="../../images/top_img/jin.png"></image>
+</view> -->
+<!-- 管理员入口 -->
+<view bindtap="management" wx:if="{{admin}}">
+  <view class="f_card">
+    <view class="fun_text">管理员入口</view>
+
+  </view>
+</view>
+<view class="personal_fun" wx:for="{{function_arr}}" wx:key="index">
+  <view  class="f_card" data-id="{{userId}}" bindtap="{{functionButton[index]}}">
+    <view class="fun_text">{{item}}</view>
+  </view>
+</view>
+</view>
+</view>
+
+<!-- 功能矩阵 -->
+<!-- <view class="personal_fun" wx:for="{{function_arr}}" wx:key="index">
+    <view class="function">
+      <view class="fun_text">{{item}}</view>
+      <image class="fun_bg" src="{{function_border}}"></image>
+    </view>
+  </view> -->

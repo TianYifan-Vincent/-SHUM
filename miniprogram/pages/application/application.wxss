@@ -1,0 +1,25 @@
+/* pages/application/application.wxss */
+.container {
+  padding: 10rpx 30rpx;
+}
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.div1 image {
+  width: 120rpx;
+  height: 120rpx;
+}
+.div3 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+.div3 image {
+  width: 217rpx;
+  height: 262rpx;
+}
+.button {
+  margin-top: 20px;
+}

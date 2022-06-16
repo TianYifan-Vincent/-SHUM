@@ -1,0 +1,39 @@
+<!--pages/to_contact/to_contact.wxml-->
+<!--pages/to_attention/to_attention.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/contact.png"></image>
+</view>
+<view class="container">
+  <!-- <view class="div1">
+    <image src="../../images/contact.png"></image>
+  </view> -->
+  <view class="text_glass">
+  <view class="div2">
+    <text>/ 地址 /
+<text style="font-weight: bold;">上海大学博物馆</text>
+（南陈路333号）
+
+/ 开放时间 /
+8:30-16:30
+<text style="font-size:smaller;">（周一至周五）
+*因疫情防控需要，校园暂时未对外开放</text>
+
+<text class='fengefu1' style="border-color:#0991e0"></text>
+/ 上海大学校史陈列室外展区 /
+<text style="font-weight: bold;">溯园</text>
+（上大路99号）
+
+/ 开放时间 /
+8:30-16:30
+<text style="font-size:smaller;">（周一至周日）
+*因疫情防控需要，校园暂时未对外开放</text>
+<text class='fengefu1'></text>
+<text style="font-size: 30rpx;">
+博物馆办公电话：<text style="color: #52b4e9;">021-66133465</text>
+联系时间：
+周一至周五 8:00-11:30 13:00-16:30
+E-mail：<text style="color: #52b4e9;">museum@oa.shu.edu.cn</text></text></text>
+  </view>
+</view>
+</view>
+

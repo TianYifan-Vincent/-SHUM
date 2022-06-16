@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "van-sticky": "@vant/weapp/sticky/index"
+  },
+
+  "backgroundTextStyle":"light",
+  "navigationBarBackgroundColor":"#fff",
+  "navigationBarTitleText":"所有资讯",
+  "navigationBarTextStyle":"black"
+}

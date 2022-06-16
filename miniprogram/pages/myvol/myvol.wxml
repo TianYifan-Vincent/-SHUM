@@ -1,0 +1,33 @@
+<!--pages/myvol/myvol.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/people.png"></image>
+</view>
+<view class="container">
+  <view class="div2">当前志愿者审核状态：</view>
+
+  <view wx:if="{{flag=='尚未申请'}}">
+    <view class="box">
+      <view>{{flag}}</view>
+    </view>
+  </view>
+  <view wx:elif="{{flag=='待审核中'}}">
+    <view class="box">
+      <view>{{flag}}</view>
+    </view>
+    <!-- <view>{{flag}}</view> -->
+  </view>
+  <view wx:elif="{{flag=='审核通过'}}">
+    <view class="box">
+      <image class="emg" src="../../images/pass.png"></image>
+      <view>{{flag}}</view>
+    </view>
+  </view>
+  <view wx:elif="{{flag=='审核未通过'}}">
+    <view class="box">
+      <image class="emg" src="../../images/failed.png"></image>
+      <view>{{flag}}</view>
+    </view> 
+    <!-- <view>{{flag}}</view> -->
+  </view>
+
+</view>

@@ -1,0 +1,143 @@
+.text_glass{
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  width: 650rpx;
+  margin: 0 50rpx;
+  padding-bottom: 20rpx;
+  /* margin-top: 15rpx; */
+  /* margin-bottom: 30rpx; */
+  /* background-color: rgba(255,255,255,0.4); */
+}
+.pop {
+  z-index: 10;
+  width: 100vw;
+  height: 100vh;
+}
+.bg {
+  background-color: #fffef2;
+}
+.bg .ImgBorder {
+  display: flex;
+  z-index: 7;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 48vh;
+  width: 100%;
+  background-color: #fffef2;
+}
+.bg .ImgBorder image {
+  width: 100vw;
+  height: 45vh;
+  display: flex;
+  top: 0;
+  position: absolute;
+}
+.bg scroll-view {
+  padding-top: 50vh;
+  padding-bottom: 100rpx;
+}
+.Name{
+  text-align: center;
+}
+.bg scroll-view .Name {
+  display: flex;
+  justify-content: center;
+  font-style: 700;
+  font-size: 52rpx;
+  padding: 40rpx 0 10rpx;
+}
+.bg scroll-view .Location {
+  display: flex;
+  justify-content: center;
+  font-size: 38rpx;
+  padding: 20rpx 0 10rpx;
+  color: #615f59;
+}
+.bg scroll-view .Tags {
+  display: grid;
+  padding-top: 4vh;
+}
+.bg scroll-view .Tags .Tag {
+  display: flex;
+  justify-content: center;
+  margin: 10rpx;
+  border: #615f59;
+}
+.bg scroll-view .Tags .Tag view {
+  width: 60rpx;
+  text-align: center;
+}
+.bg scroll-view .Introduce {
+  padding: 40rpx 32rpx 10rpx;
+}
+.bg scroll-view .Introduce .IntroduceTit {
+  font-size: 42rpx;
+}
+.bg scroll-view .Introduce .IntroduceCont {
+  font-size: 32rpx;
+  font-weight: lighter;
+  line-height: 50rpx;
+  text-indent: 64rpx;
+}
+.IntroduceCont{
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(50, 50, 93, 0.3) 0px 3px 7px -3px;
+  width: 650rpx;
+  margin-left: 18rpx;
+  margin-bottom: 20rpx;
+  padding: 10rpx 0;
+  /* padding: 10rpx; */
+}
+.bg .medium {
+  box-shadow: 0px 4px 16rpx 10rpx rgba(0, 0, 0, 0.06);
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90rpx;
+  background-color: #fffef2;
+  display: flex;
+}
+.bg .medium .status {
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+}
+.bg .medium .status van-icon {
+  padding: 10rpx;
+}
+.bg .medium .music {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.bg .medium .share {
+  padding-right: 40rpx;
+  font-size: 30rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 2;
+  position: relative;
+}
+.bg .medium .share van-icon {
+  padding: 10rpx;
+}
+.bg .medium .share button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}

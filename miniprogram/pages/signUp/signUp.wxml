@@ -1,0 +1,24 @@
+<!--pages/signUp/signUp.wxml-->
+<view wx:if="{{signed == 0}}">
+<van-cell-group>
+  <van-field style="background-color: transparent;" model:value="{{ name }}" label="姓名" placeholder="请输入姓名" border="{{ false }}" />
+  <van-field style="background-color: transparent;" model:value="{{ studentID }}" label="学号" placeholder="请输入学号" border="{{ false }}" />
+  <van-field style="background-color: transparent;" model:value="{{ phonenumber }}" label="电话号码" placeholder="请输入电话" border="{{ false }}" />
+  <van-field style="background-color: transparent;" model:value="{{ email }}" label="邮箱" placeholder="请输入邮箱" border="{{ false }}" />
+</van-cell-group>
+<!-- <button class="btnStyle" form-type="submit" bindtap="submit" type="primary">报名</button>
+<button class="btnStyle" form-type="reset" bindtap="clearAll">重置</button> -->
+<view  style="margin-top: 60rpx;" class="btn" type="primary" bindtap="submit">报名
+</view>
+<view  class="btn" type="primary" bindtap="clearAll">重置
+</view>
+</view>
+<view wx:elif="{{signed == 1}}">
+  <view class="box">
+      <image class="emg" src="../../images/quill.png"></image>
+      <view>已报名</view>
+    </view>
+<view  style="margin-top: 60rpx;" class="btn2"
+bindtap="cancel">
+取消报名</view>
+</view>

@@ -1,0 +1,100 @@
+{
+  "usingComponents": {
+    "van-button": "@vant/weapp/button/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "van-popup": "@vant/weapp/popup/index",
+        "van-cell": "@vant/weapp/cell/index",
+        "van-cell-group": "@vant/weapp/cell-group/index",
+        "van-row": "@vant/weapp/row/index",
+        "van-col": "@vant/weapp/col/index",
+        "van-transition": "@vant/weapp/transition/index",
+        "van-image": "@vant/weapp/image/index",
+        "van-tag": "@vant/weapp/tag/index",
+        "van-divider": "@vant/weapp/divider/index",
+        "van-sticky": "@vant/weapp/sticky/index"
+  },
+  "pages": [
+    "pages/explore/explore",
+    "pages/relic/relic",
+    "pages/index/index",
+    "pages/exhibition_detail/exhibition_detail",
+    "pages/exhibit/exhibit",
+    "pages/all_show/all_show",
+    "pages/show_news/show_news",
+    "pages/play/play",
+    "pages/personal_center/personal_center",
+    "pages/index_D/index_D",
+    "pages/intro_t/intro_t",
+    "pages/administrator/administrator",
+    "pages/releaseNews/releaseNews",
+    "pages/releaseActivity/releaseActivity",
+    "pages/recruitVolunteers/recruitVolunteers",
+    "pages/reservation/reservation",
+    "pages/reservation_detail/reservation_detail",
+    "pages/volunteer/volunteer",
+    "pages/details/details",
+    "pages/exhibits_list/exhibits_list",
+    "pages/VRpanorama/VRpanorama",
+    "pages/VRpanoramaDetail/VRpanoramaDetail",
+    "pages/user/user",
+    "pages/suyuan/suyuan",
+    "pages/signUp/signUp",
+    "pages/activityList/activityList",
+    "pages/myActivity/myActivity",
+    "pages/myvol/myvol",
+    "pages/questionnaire/questionnaire",
+    "pages/showquest/showquest",
+    "pages/to_all/to_all",
+    "pages/to_attention/to_attention",
+    "pages/to_contact/to_contact",
+    "pages/showall_exhibits/showall_exhibits",
+    "pages/transfer/transfer",
+    "pages/enrollment/enrollment",
+    "pages/application/application"
+  ],
+  "window": {
+    "backgroundColor": "#00457D",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f8f5ec",
+    "navigationBarTitleText": "云端博览之SHUM",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#c3c3c3", 
+    "selectedColor": "#2c2c2c",  
+    "backgroundColor": "#fff",  
+    "borderStyle": "white",  
+    "list": [
+      {
+        "pagePath": "pages/explore/explore", 
+        "text": "探索",            
+        "iconPath": "images/I.png",  
+        "selectedIconPath": "images/I_s.png" 
+      },
+      {
+        "pagePath": "pages/transfer/transfer",
+        "text": "趣变",
+        "iconPath": "images/magic.png",
+        "selectedIconPath": "images/magic_s.png"
+        
+      },
+      {
+        "pagePath": "pages/intro_t/intro_t",
+        "text": "场馆介绍",
+        "iconPath": "images/x.png",
+        "selectedIconPath": "images/x_s.png"
+      },
+      {
+        "pagePath": "pages/personal_center/personal_center",
+        "text": "个人中心",
+        "iconPath": "images/g.png",
+        "selectedIconPath": "images/g_s.png"
+      }
+    ],
+    "position": "bottom",  
+    "custom": false  
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+  
+}

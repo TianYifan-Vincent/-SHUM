@@ -1,0 +1,15 @@
+<view class="background_view">
+  <view class="all_ex">所有展览</view>
+  <scroll-view scroll-y class="scrollPage">
+    <view slot="content">
+      </view>
+    <view class="cu-card">
+      <view class="cu-item bg-img shadow-blur" style="background-image:url({{item.img}})" bindtap="toChild" data-url="{{item.url}}" wx:for="{{list}}" wx:key="list">
+        <view class="cardTitle">
+          {{item.title}}
+        </view>
+      </view>
+    </view>
+    <view class="cu-tabbar-height"></view>
+  </scroll-view>
+</view>

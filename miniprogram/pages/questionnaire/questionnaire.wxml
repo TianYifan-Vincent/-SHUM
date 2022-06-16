@@ -1,0 +1,17 @@
+<!--pages/questionnaire/questionnaire.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/query.png"></image>
+</view>
+<view class="container">
+  <!-- <view class="div1">
+    <image src="../../images/form.png"></image>
+  </view> -->
+  <view class="div2" bindtap="gotoquestionnaire">
+    <view>“铭心妙相：龙门石窟艺术对话特展”调查问卷</view>
+    <view class="div3">2021-12-16</view>
+  </view>
+  <view class="weui-loadmore weui-loadmore_line" wx:if="{{bottom}}">
+    <text class="weui-loadmore_tips" style="color: gray;">暂无更多</text>
+  </view>
+</view>
+

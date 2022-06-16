@@ -1,0 +1,20 @@
+<!--pages/VRpanorama/VRpanorama.wxml-->
+<view class="top_img">
+  <image class="top_img_style" mode="heightFix" src="../../images/top_img/house.png"></image>
+</view>
+
+<view>
+  <view class="note" bindtap="attention">
+    <image class="div2_img" src="../../images/wenhao.png"></image>
+    <view class="note2">注意事项</view>
+  </view>
+
+  <view class="div2" wx:for="{{show_info}}" wx:key="index">
+    <view class="name">{{item.name}}
+    </view>
+    <view class="box" data-url="{{item.url}}" bindtap="to_VRpanoramaDetail">
+      <view class="label">立即体验</view>
+      <image class="card_img" src="{{img_path[index]}}" />
+    </view>
+  </view>
+</view>

@@ -1,0 +1,111 @@
+/* pages/showall_exhibits/showall_exhibits.wxss */
+.show_box {
+  width: 650rpx;
+  margin: 0 auto;
+  overflow: hidden;
+  font-size: 0;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-top-left-radius: 25rpx 20rpx;
+  border-top-right-radius: 25rpx 20rpx;
+  border-bottom-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+}
+
+.top_img {
+  margin: 0 auto;
+  width: 650rpx;
+  /* background-color: rgba(211,211,211,0.7); */
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.top_img_style {
+  height: 100rpx;
+  margin: 10rpx 0;
+}
+
+container {
+  padding: 10rpx 30rpx;
+}
+
+.div1 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.div1 image {
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.div2 {
+  padding: 20rpx 20rpx;
+}
+
+.div2 image {
+  width: 100%;
+  height: 400rpx;
+}
+
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  text-align: center;
+}
+
+.time {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: small;
+  text-align: center;
+  font-weight: 550;
+  color: #909090;
+  margin: 10rpx 0;
+}
+
+/* .label{
+    display: flex;
+    position: absolute;
+    font-size: small;
+    color: black;
+    font-weight: 500;
+    align-items:center;
+    justify-content:center;
+    background-color: #eacfb2;
+    width: 200rpx;
+    height: 60rpx;
+    border-top-left-radius: 25rpx 20rpx;
+    border-bottom-right-radius: 25rpx 20rpx;
+  } */
+.label {
+  display: flex;
+  position: absolute;
+  font-size: small;
+  color: white;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: #6e7b8a;
+  width: 200rpx;
+  height: 60rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  margin-left: 30rpx;
+}
+
+.label2 {
+  display: flex;
+  position: absolute;
+  font-size: small;
+  color: #6e7b8a;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: #efe1d6;
+  width: 200rpx;
+  height: 60rpx;
+  border-top-left-radius: 25rpx 20rpx;
+  border-bottom-right-radius: 25rpx 20rpx;
+  margin-left: 30rpx;
+}

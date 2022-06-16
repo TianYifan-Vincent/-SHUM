@@ -1,0 +1,7 @@
+<!--pages/show_news/show_news.wxml-->
+<!-- <text style="font-size: 50rpx;">测试数据：{{content}}</text>
+<view class="back" bindtap="goBack">返回上一页</view>
+<view class="delBtn" bindtap="delNews" wx:if="{{admin}}">删除</view> -->
+<view style="height: 0.8vh;width: 750rpx;">
+  <web-view src="{{link}}"></web-view>
+</view>

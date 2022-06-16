@@ -1,0 +1,51 @@
+<!--pages/exhibition_detail/exhibition_detail.wxml-->
+<view class="window ">
+  <view class="top_wrapper">
+    <!-- <view class="top_f">
+    </view> -->
+    <view class="main_pic">
+      <view class="title_1">{{details.title}}</view>
+      <view class="box1">
+        <image class="cover" wx:if="{{details.imgUrl}}" src="{{details.imgUrl}} " ></image>
+      </view>
+      <view class="box2">
+        <view class="itro">
+          <!-- <view class="title">遇见敦煌</view> -->
+          <view class="content">{{details.name}}展览</view>
+          <view class="host">{{details.unitName}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="body_wrapper">
+    <view class="detail">
+      <view class="split_line"></view>
+      <view class="title">展览介绍</view>
+      <view class="split_line"></view>
+      <view class="intro">
+        <view wx:for="{{details.introduction}}" wx:key="index">
+          <text space="ensp">   {{item}}\n</text>
+        </view>   
+      </view>
+      <view class="fill"></view>
+    </view>
+  </view>
+
+  <view class="bottom_wrapper">
+    <view class="collaboration">
+      <view class="co_top">
+        <view>合作方</view>
+      </view>
+      <view class="co_bottom">
+          <view class="co_bottom_img_wrapper" wx:for="{{details.partner}}" wx:key="index">
+            <view><image class="co_bottom_img" src="{{item[1]}}" mode="aspectFit"></image></view>
+            <view class="co_name">{{item[0]}}</view>
+          </view>
+      </view>
+    </view>
+    <view class="bottom_function">
+      <navigator style="position: fixed;" class="start" url="../exhibits_list/exhibits_list?cls={{details.name}}">开始之旅</navigator>
+    </view>
+  </view>
+</view>
+
